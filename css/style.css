@@ -1,0 +1,166 @@
+html, body {
+  font-family: "Neuton", "Times New Roman", serif;
+  font-size: 120%;
+  color: #333;
+  min-width: 0px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  vertical-align: top;
+}
+
+.pageContainer {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
+}
+
+menu {
+  padding: 0;
+  margin: 1em 0 1em 0;
+}
+
+  menu a {
+    display: inline-block;
+    padding: 1em;
+  }
+
+  menu a:hover {
+    background-color: #F5DE7A;
+    color: #000;
+  }
+
+  menu a.current {
+    color: #000;
+    text-decoration: none;
+  }
+
+a, a:hover, a:active, a:visited {
+  color: #1160BA;
+}
+
+.page {
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.page h1 {
+  margin: 0 0 1em 0;
+}
+
+.page.frontpage .photoAndContacts {
+  display: flex;
+}
+
+.page.frontpage .photoAndContacts .photo img {
+  margin-top: 0.7em;
+}
+
+.page.frontpage .photoAndContacts .contacts {
+  margin-left: 3em;
+}
+
+.page.frontpage h1 {
+  margin: 0 0 0 0;
+}
+
+.page.frontpage .shortInfo {
+  margin: 0 0 1em 0;
+}
+
+.page.frontpage .myPhoto {
+  border-radius: 10px 15px 10px 15px;
+  height: 400px;
+}
+
+.page.frontpage table.sitesAndContacts {
+  font-size: 90%;
+}
+
+.page.frontpage table.sitesAndContacts td, .page.frontpage table.sitesAndContacts th {
+  padding: 0.3em;
+}
+
+.page.frontpage table.sitesAndContacts th {
+  font-weight: normal;
+  color: #777;
+  text-align: left;
+}
+
+.page.frontpage table.sitesAndContacts th img {
+  float: left;
+  padding-right: 0.5em;
+  width: 1.5em;
+}
+
+.container {
+  padding: 1em;
+}
+
+.page.resume h3 {
+  font-size: 150%;
+}
+
+.page.resume .skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page.resume .skills .skill {
+  max-width: 40em;
+  min-width: 20em;
+  margin: 2em 2em 0 0;
+}
+
+.page.resume .skills h4 {
+  margin: 0 0 0 0;
+  font-size: 120%;
+}
+
+.page.resume .skills p {
+  margin: 0 0 0 0;
+}
+
+.page.resume .skills p.experience {
+  color: #8e97a0;
+  margin-top: 0;
+  font-size: 90%;
+}
+
+.page.resume ul ul {
+  margin-top: 1em;
+  font-size: 85%;
+}
+
+.page.resume ul ul b {
+  font-weight: bold;
+}
+
+.page.resume ul p {
+  font-size: 85%;
+  margin: 0 0 0.5em 0;
+}
+
+.page.resume ul p.experience {
+  color: #8e97a0;
+  margin-top: 0.5em;
+}
+
+.page.resume h4 {
+  margin-bottom: 0;
+}
+
+.page.resume p.github {
+  margin-top: 2em;
+  padding-left: 1em;
+}
+
+.page.resume p.github img {
+  float: left;
+  margin-right: 0.5em;
+  width: 1.5em;
+}
