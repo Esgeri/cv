@@ -61,7 +61,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .page.frontpage .photoAndContacts .contacts {
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 .page.frontpage h1 {
@@ -69,12 +69,12 @@ a, a:hover, a:active, a:visited {
 }
 
 .page.frontpage .shortInfo {
-  margin: 0 0 1em 0;
+  margin: 0 0 0.5em 0;
 }
 
 .page.frontpage .myPhoto {
   border-radius: 10px 15px 10px 15px;
-  height: 400px;
+  height: 425px;
 }
 
 .page.frontpage table.sitesAndContacts {
@@ -95,6 +95,20 @@ a, a:hover, a:active, a:visited {
   float: left;
   padding-right: 0.5em;
   width: 1.5em;
+}
+
+.page.frontpage .photoAndContacts .contacts .skills .skill {
+  max-width: 40em;
+  min-width: 20em;
+}
+
+.page.frontpage .photoAndContacts .contacts .skills h4 {
+  margin: 0 0 0 0;
+  font-size: 120%;
+}
+
+.page.frontpage .photoAndContacts .contacts .skills p {
+  margin: 0 0 0 0;
 }
 
 .container {
@@ -131,6 +145,14 @@ a, a:hover, a:active, a:visited {
   font-size: 90%;
 }
 
+.page.resume .skills p em.duties {
+  color: #D33257;
+}
+
+.skill-name {
+  color: #5991B1;
+}
+
 .page.resume ul ul {
   margin-top: 1em;
   font-size: 85%;
@@ -160,6 +182,35 @@ a, a:hover, a:active, a:visited {
 }
 
 .page.resume p.github img {
+  float: left;
+  margin-right: 0.5em;
+  width: 1.5em;
+}
+
+.page.resume p.bitbucket {
+  margin-top: 2em;
+  padding-left: 1em;
+}
+
+.page.resume p.bitbucket img {
+  float: left;
+  margin-right: 0.5em;
+  width: 1.5em;
+}
+
+.page .resume p.youtube {
+  float: left;
+  margin-right: 0.5em;
+  width: 1.5em;
+}
+
+img.youtube-image {
+  float: left;
+  margin-right: 0.5em;
+  width: 1.5em;
+}
+
+p.email img {
   float: left;
   margin-right: 0.5em;
   width: 1.5em;
