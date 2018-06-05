@@ -1,5 +1,5 @@
-# README
+# RESUME
 
-My resume & Curriculum Vitae
+Click [about me](https://esgeri.github.io/cv/)
 
-Simple HTML/CSS project
+Simple **HTML/CSS** project on **Github Pages**
